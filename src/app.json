@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/books/main",
+    "pages/personal/main",
+    "pages/comments/main",
+    "pages/details/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8D807C",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "书以静心",
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/books/main",
+      "text": "书架",
+      "iconPath": "static/images/icons/bookrack.png",
+      "selectedIconPath": "static/images/icons/bookrack-active.png"
+    }, {
+      "pagePath": "pages/comments/main",
+      "text": "留言",
+      "iconPath": "static/images/icons/comments.png",
+      "selectedIconPath": "static/images/icons/comments-active.png"
+    },{
+      "pagePath": "pages/personal/main",
+      "text": "我的",
+      "iconPath": "static/images/icons/personal.png",
+      "selectedIconPath": "static/images/icons/personal-active.png"
+    }],
+    "backgroundColor": "#ffffff",
+    "color": "#8D807C",
+    "selectedColor": "#222222"
+  },
+  "debug": true
+}

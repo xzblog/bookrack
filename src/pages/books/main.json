@@ -1,0 +1,5 @@
+{
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60,
+  "navigationBarTitleText": "我的书架"
+}
